@@ -1,0 +1,74 @@
+{
+    "name": "BtnControls",
+    "maps": [
+        {
+            "name": "Controllers",
+            "id": "15adce3b-8b87-4e2d-9db2-8f59114f05b8",
+            "actions": [
+                {
+                    "name": "LightSwitch",
+                    "type": "Button",
+                    "id": "50361580-f66d-4d1d-9d29-442c4bdfb5ee",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ViewSwitch",
+                    "type": "Button",
+                    "id": "aa707fe1-b344-4f3f-8730-0f262f8d63df",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "8d5deb65-62fa-4e96-b76e-bc4e6403c6f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1d2934f4-74f1-4730-ac69-be3a0ef1052a",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f7db5b0b-327f-4ee6-9b42-31c33dd6d05b",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ViewSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee344efe-2e37-4c08-b825-2f9f15994d48",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
